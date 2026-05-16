@@ -2,6 +2,9 @@
 
 A 2D visibility and dynamic lighting prototype built in C++ using the **SFML (Simple and Fast Multimedia Library)**. The system calculates real-time field of view (FOV) and shadows from a player-controlled source by casting rays at the corners of obstacles and rendering a dynamic visibility polygon.
 
+## How to run
+Just run the final.exe (Note: it needs all the dll files in order to run.)
+
 ## Features
 
 * **Dynamic Raycasting:** Generates rays targeting wall endpoints with fine-tuned angular offsets to simulate perfect edge shadows.
